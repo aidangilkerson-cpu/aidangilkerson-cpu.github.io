@@ -19,6 +19,8 @@ exclude:
   - Gemfile.lock
   - README.md
   - PLAN.md
+  - Change1.md
+  - attached_assets
   - replit.md
   - .replit
   - .local
