@@ -12,24 +12,35 @@
 
 - [x] Replace the Contact page's LinkedIn placeholder with a working profile link.
 - [x] Exclude this change document from the public website.
-- [ ] Obtain the complete LinkedIn Experience section and verify each role's dates.
-- [ ] Add verified dates and durations to the Work Experience page.
-- [ ] Confirm any total years-of-experience figure without double-counting overlapping roles.
+- [x] Obtain the supplied LinkedIn Experience section and verify each role's dates against it.
+- [x] Add all six supplied roles, dates, and durations to the Work Experience page.
+- [x] Use LinkedIn's employer-level durations rather than adding overlapping role durations together.
+- [x] Keep the uploaded source text off the public website.
 
 ## Source and verification
 
 LinkedIn profile: https://www.linkedin.com/in/aidan-gilkerson
 
-Search-indexed profile information suggests:
+Source: the LinkedIn Experience text supplied by the user.
 
-- Wardstone: June 2026–present.
-- Defense Innovation Unit: January 2026–May 2026.
-- One U.S. Army / 101st Airborne Division assignment: February 2023–April 2024.
+| Employer | Role | Dates | LinkedIn duration |
+| --- | --- | --- | --- |
+| Wardstone | Strategy and Growth Lead | Aug 2026–present | 3 months |
+| Wardstone | Business Development Intern | Jun 2026–Aug 2026 | 3 months |
+| Defense Innovation Unit | Global Partnerships Intern | Jan 2026–May 2026 | 5 months |
+| Charles Schwab | Digital Strategy Intern | Jun 2024–Aug 2024 | 3 months |
+| U.S. Army, 101st Airborne Division (Air Assault) | Platoon Leader | Feb 2023–Apr 2024 | 1 year 3 months |
+| U.S. Army, 101st Airborne Division (Air Assault) | Company Fire Support Officer | Jul 2021–Jan 2023 | 1 year 7 months |
 
-These are incomplete search results, not a verified copy of the full Experience
-section. They have not been published as work dates. In particular, one Army
-assignment must not be treated as the entire period of Army service.
+Employer-level experience supplied by LinkedIn:
 
-The complete Experience section is needed to confirm these dates, identify any
-additional roles, and accurately report years of experience. Paste the role
-titles and date ranges from LinkedIn before completing the remaining changes.
+- Wardstone: June 2026–present, 5 months. Do not add the two 3-month
+  durations together: both include August.
+- U.S. Army: July 2021–April 2024, 2 years 10 months, covering both assignments.
+
+Current-role durations are preserved as supplied, not recalculated from the
+visitor's date. The Work Experience page explains that they reflect the supplied
+LinkedIn snapshot. No combined career-total figure is asserted.
+
+The Contact page links only to the public LinkedIn profile. Internal LinkedIn
+edit-form and skill-overlay URLs from the pasted text are not used on the site.
