@@ -1,0 +1,1 @@
+- [Jekyll Pages content boundaries](jekyll-pages-content-boundaries.md) — GitHub Pages plugins can turn root Markdown docs into public pages; exclude internal docs and inspect `_site`.

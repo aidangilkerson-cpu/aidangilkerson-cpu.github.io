@@ -1,0 +1,14 @@
+<header class="site-header">
+  <div class="header-top">
+    <a class="site-name" href="{{ '/' | relative_url }}">Aidan Gilkerson</a>
+    <button class="theme-toggle" type="button" data-theme-toggle hidden aria-pressed="false">
+      Dark mode
+    </button>
+  </div>
+  <nav class="site-nav" aria-label="Main navigation">
+    <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>Home</a>
+    <a href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} aria-current="page"{% endif %}>About</a>
+    <a href="{{ '/work-experience/' | relative_url }}"{% if page.url == '/work-experience/' %} aria-current="page"{% endif %}>Work Experience</a>
+    <a href="{{ '/contact/' | relative_url }}"{% if page.url == '/contact/' %} aria-current="page"{% endif %}>Contact</a>
+  </nav>
+</header>

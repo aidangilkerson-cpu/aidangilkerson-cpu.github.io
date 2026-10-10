@@ -1,0 +1,24 @@
+title: Aidan Gilkerson
+description: >-
+  Strategy and growth in defense technology, with interests across emerging
+  technology, business, and national security.
+url: "https://aidangilkerson-cpu.github.io"
+baseurl: ""
+lang: en-US
+timezone: America/Los_Angeles
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+author:
+  name: Aidan Gilkerson
+  url: "https://aidangilkerson-cpu.github.io"
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - PLAN.md
+  - replit.md
+  - .replit
+  - LICENSE
