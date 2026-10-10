@@ -226,6 +226,73 @@ p {
   max-width: 66ch;
 }
 
+.intersection-graphic {
+  max-width: 34rem;
+  margin: 2.25rem 0 0;
+  padding: 1.25rem 0 1rem;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.intersection-graphic__svg {
+  display: block;
+  width: min(100%, 22.5rem);
+  height: auto;
+  margin-inline: auto;
+  overflow: visible;
+}
+
+.intersection-graphic__circle {
+  fill: var(--soft-accent);
+  fill-opacity: 0.62;
+  stroke: var(--accent);
+  stroke-width: 1.6;
+}
+
+.intersection-graphic__label {
+  fill: var(--text);
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 700;
+  text-anchor: middle;
+}
+
+.intersection-graphic__label--security {
+  font-size: 14px;
+}
+
+.intersection-graphic__focus {
+  fill: var(--surface);
+  stroke: var(--accent);
+  stroke-width: 1.5;
+}
+
+.intersection-graphic__focus-kicker {
+  fill: var(--accent-strong);
+  font-family: inherit;
+  font-size: 8px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-anchor: middle;
+}
+
+.intersection-graphic__focus-label {
+  fill: var(--text);
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: 700;
+  text-anchor: middle;
+}
+
+.intersection-graphic__caption {
+  max-width: 34ch;
+  margin: 0.2rem auto 0;
+  color: var(--muted);
+  font-size: 0.88rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
 .page-actions {
   display: flex;
   flex-wrap: wrap;

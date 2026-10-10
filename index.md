@@ -22,6 +22,8 @@ innovation. I’m pursuing my MBA at UC Berkeley’s Haas School of Business.
 My interests lie in how emerging technologies can solve complex problems and
 reshape existing industries.
 
+{% include intersection-graphic.html %}
+
 <p class="page-actions">
   <a class="text-link" href="{{ '/work-experience/' | relative_url }}">Explore my experience <span aria-hidden="true">→</span></a>
   <a class="text-link" href="{{ '/contact/' | relative_url }}">Get in touch <span aria-hidden="true">→</span></a>
