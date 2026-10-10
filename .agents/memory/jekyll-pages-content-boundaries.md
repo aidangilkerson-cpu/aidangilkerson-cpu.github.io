@@ -8,3 +8,9 @@ When building a Jekyll site with the GitHub Pages bundle, explicitly exclude roo
 **Why:** A successful build can silently publish repository documentation as an extra site page.
 
 **How to apply:** Add non-site Markdown documents to `_config.yml`'s `exclude` list and verify the generated `_site` contains only intended pages and assets.
+
+Exclude Replit metadata directories from Jekyll's development watcher as well.
+
+**Why:** Watching workflow logs can cause a self-triggered rebuild loop, and platform skill symlinks can cause duplicate-directory watch errors.
+
+**How to apply:** Keep platform metadata outside Jekyll's watched content; serving the actual root-level Jekyll site is sufficient for preview and does not require a separate application.
